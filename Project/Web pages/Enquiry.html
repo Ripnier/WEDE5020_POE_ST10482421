@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content = "width = device-width, initial-scale = 1.0">
     <title>Enquiry</title>
     <link rel="stylesheet" href="Style.css">
 </head>
@@ -19,24 +20,29 @@
 <div class = "divGroup">
 <h1 class = "centerGroup">ENQUIRIES</h1>
 <h2><details>
+    
 <summary>Contact Form</summary>
 <form>
 <fieldset>
 <label>Username:</label>
-<input type="text"><br>
+<input type="text" placeholder="Name and Surname"><br>
 <label>Email:</label>
-<input type="email"><br>
+<input type="email" placeholder="example@gmail.com"><br>
 <label>Password:</label>
-<input type="password"><br>
+<input type="password" placeholder="include symbols"><br>
 </fieldset>
 <fieldset>
 <label>Services comment:</label>
-<textarea></textarea>
+<textarea placeholder="Please leave a comment"></textarea>
 </fieldset>
 </form>
+       <button id="checker">send</button>
+       <p id="message"></p>
 </details>
 </h2>
 </div>
 <footer>2004-2025 REVOLUTIONARY TECH WEEBS-Innovative Web Design,Premium Hosting,Cloud Solutions & Domain Services.</footer>
 </body>
+<script src="jquery.js"></script>
+<script src="Functionality.js"></script>
 </html>
