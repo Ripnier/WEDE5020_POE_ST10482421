@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content = "width = device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="Style.css">
 </head>
 
 <body id="body2">
@@ -9,29 +10,32 @@
 <div>
     <div class = "navigation">
         <a href="Index.html">Index page</a>
-        <a href="#">About us</a>
+        <a href="#" class="about">About us</a>
         <a href="Services.html">Services</a>
         <a href="Enquiry.html">Enquiry</a>
         <a href="Contact.html">Contact</a>
     </div>
-<h1 class = "centerGroup">ORGANISATION HISTORY</h1>
+<h1 class = "centerGroup section-header">ORGANISATION HISTORY</h1>
+    <div class="section">
 <ul>
 <li>
 <p>REVOLUTIONARY TECH WEEBS is an organisation that was first founded by Nyambose Mthethwa and his friends Nation Sibeko and Kensane Khoza.
-<br> All were college graduates who wanted to apply their computer skills in the real-world market. 
-<br> Their aim was to provide up and coming business as well as big business and general public a secure online cloud storage space and a web design service</p>
+<br> <li>All were college graduates who wanted to apply their computer skills in the real-world market. </li>
+<br> <li>Their aim was to provide up and coming business as well as big business and general public a secure online cloud storage space and a web design service</p></li>
 </li>
 </ul>
-</div>
-<div>
-<h1 class = "centerGroup">Vision and Mission</h1>
+    </div>
+<h1 class = "centerGroup section-header ">Vision and Mission</h1>
+    <div class="section">
 <ul>
 <li>
 <p>The mission of REVOLUTIONARY TECH WEEBS is to increases its recognition as well as its reliability</p>
 </li>
 <li>The organisation's vision is to one day be a tech giant, similar to other tech businesses such as Microsoft, google, Apple, Amazon and so on.</li>
 </ul>
-<h1 class = "centerGroup">Team Members</h1>
+    </div>
+<h1 class = "centerGroup section-header">Team Members</h1>
+    <div class="section">
 <ul>
 <li>Nyambose Mthethwa</li>
 <li>Nation Sibeko</li>
@@ -40,7 +44,16 @@
 <li>Tsabetse Setu</li>
 <li>Jason Kininza</li>
 </ul>
+    </div>
 </div>
 <footer>2004-2025 REVOLUTIONARY TECH WEEBS-Innovative Web Design,Premium Hosting,Cloud Solutions & Domain Services.</footer>
 </body>
+<script src="jquery.js"></script>
+<script src="Functionality.js"></script>
+<script defer>
+window.addEventListener("load", () => {
+  alert("Click on headings to remove clutter.");
+});
+
+</script>
 </html>
